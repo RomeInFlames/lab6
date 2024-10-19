@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from collections import Counter
+
 
 if __name__ == '__main__':
     a = tuple(map(int, input().split()))
@@ -15,6 +15,3 @@ if __name__ == '__main__':
 
     print(count)
     print(str(b)[1:-1])
-
-
-
